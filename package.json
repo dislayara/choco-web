@@ -1,16 +1,32 @@
 {
   "name": "claudia_pruebas",
   "version": "1.0.0",
-  "description": "",
+  "description": "prueba claudia",
   "main": "index.js",
   "scripts": {
+    "start:dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
-    "express": "^5.2.1"
-  }
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "json": "^11.0.0",
+    "pg": "^8.23.1",
+    "typeorm": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaraDisla7/choco_claudia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YaraDisla7/choco_claudia/issues"
+  },
+  "homepage": "https://github.com/YaraDisla7/choco_claudia#readme"
 }
